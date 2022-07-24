@@ -11,9 +11,8 @@ body #top-bar {
     width: 100%;
     height: 7rem;
     background-color: white;
-    border-bottom: .1rem solid gray;
-    -webkit-box-shadow: 0 0 .3rem gray;
-            box-shadow: 0 0 .3rem gray;
+    -webkit-box-shadow: 0 0 .5rem gray;
+            box-shadow: 0 0 .5rem gray;
     z-index: 7;
     cursor: pointer;
 }
