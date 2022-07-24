@@ -175,6 +175,11 @@ body.subpage main form textarea:focus {
             box-shadow: 0 0 0 .4rem rgb(200, 200, 200);
     outline: none;
 }
+body.subpage main form > input.empty,
+body.subpage main form > textarea.empty {
+    -webkit-box-shadow: 0 0 0 .4rem rgb(252, 0, 0);
+            box-shadow: 0 0 0 .4rem rgb(252, 0, 0);
+}
 body.subpage main form button {
     height: 4rem;
     width: 20rem;

@@ -7,7 +7,6 @@
 */
 
 @media screen and (min-width: 700px) {
-
     
     html {
         font-size: 8px;
@@ -24,11 +23,27 @@
         display: none;
     }
 
+
+    body.homepage main #content-logo {
+        display: none;
+    }
+    body.homepage main #hero-link {
+        top: 6rem;
+    }
+    body.homepage main footer #home-copy-small {
+        display: none;
+    }
+    body.homepage main footer #home-copy-large {
+        display: inline;
+    }
+
+
     body.subpage main,
     body.homepage main {
         margin-left: 32rem;
         width: auto;
     }
+
 
     body.subpage main {
         padding-top: 50vh;
@@ -50,19 +65,6 @@
         background: linear-gradient(to bottom, transparent, rgba(60, 60, 60, 0.9) 75vh, rgba(60, 60, 60, 0.9));
     }
 
-    body.homepage main #content-logo {
-        display: none;
-    }
-    body.homepage main #hero-link {
-        top: 6rem;
-    }
-    body.homepage main footer #home-copy-small {
-        display: none;
-    }
-    body.homepage main footer #home-copy-large {
-        display: inline;
-    }
-
 
     body.subpage main #modal {
         top: 0;
@@ -72,6 +74,10 @@
     }
     body.subpage main #modal figure img {
         max-height: 70vh;
+    }
+
+    body.subpage main address a[href^="tel"] {
+        pointer-events: none;
     }
 
 }
