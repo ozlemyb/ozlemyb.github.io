@@ -88,11 +88,19 @@ body #top-bar span::after {
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-body #top-bar:hover span,
-body #top-bar:hover span::before,
-body #top-bar:hover span::after {
+body #top-bar:active span,
+body #top-bar:active span::before,
+body #top-bar:active span::after {
     -webkit-box-shadow: 0 0 .4rem grey;
             box-shadow: 0 0 .4rem grey;
+}
+@media (pointer: fine) {
+    body #top-bar:hover span,
+    body #top-bar:hover span::before,
+    body #top-bar:hover span::after {
+        -webkit-box-shadow: 0 0 .4rem grey;
+                box-shadow: 0 0 .4rem grey;
+    }
 }
 
 
